@@ -13,7 +13,7 @@
 ### app.gradle
 
 ```java
-  implementation 'com.autoid:autoid-rfidlib:1.0.1'
+  implementation 'com.autoid:autoid-rfidlib:1.0.2'
 ```
 
 ## Tree:
@@ -25,6 +25,8 @@
     │   │   ├── T2Scanner.java
     │   │   └── T4Scanner.java
     │   └── Scanner.kt
+    ├── utils
+    │   └── SGTIN96Util.java
     └── views
         ├── LocateBottomSheet.kt
         └── PowerController.kt
