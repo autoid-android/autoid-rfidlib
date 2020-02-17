@@ -13,7 +13,7 @@
 ### app.gradle
 
 ```java
-  implementation 'com.autoid:autoid-rfidlib:1.0.7'
+  implementation 'com.autoid:autoid-rfidlib:1.0.8'
 ```
 
 ## Tree:
@@ -36,9 +36,11 @@
 
 ```java
     api 'androidx.appcompat:appcompat:1.1.0'
-    api 'com.google.android.material:material:1.2.0-alpha03'
+    api 'com.google.android.material:material:1.2.0-alpha04'
     api 'androidx.constraintlayout:constraintlayout:2.0.0-beta4'
-    api "androidx.core:core-ktx:1.1.0"
+    api "androidx.core:core-ktx:1.2.0"
+    api "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     compileOnly files('libs/t2rfid-release.aar')
     compileOnly files('libs/t4-rfid-release.aar')
+    compileOnly files('libs/alienapi.aar')
 ```
