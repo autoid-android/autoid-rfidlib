@@ -13,7 +13,7 @@
 ### app.gradle
 
 ```java
-  implementation 'com.autoid:autoid-rfidlib:2.1.1'
+  implementation 'com.autoid:autoid-rfidlib:2.1.2'
 ```
 
 ## Tree:
