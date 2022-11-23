@@ -13,13 +13,15 @@
 ### app.gradle
 
 ```java
-  implementation 'com.autoid:autoid-rfidlib:3.0.2'
+  implementation 'com.autoid:autoid-rfidlib:3.1.0'
 ```
 
 ## Tree:
 
 ```
 .
+├── activities
+│   └── ErrorActivity.kt
 ├── scanners
 │   ├── entries
 │   │   ├── T2Scanner.java
@@ -30,6 +32,7 @@
 └── views
     ├── LocateBottomSheet.kt
     └── PowerController.kt
+
 
 ```
 
